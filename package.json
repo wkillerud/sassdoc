@@ -65,10 +65,13 @@
     "concat-stream": false,
     "vinyl-source-stream": false
   },
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "files": [
     "bin",
     "dist",
     "index.js",
+    "index.d.ts",
     "CHANGELOG.md",
     "UPGRADE-2.0.md",
     "LICENCE.md",
@@ -89,6 +92,7 @@
     ]
   },
   "dependencies": {
+    "@types/node": "*",
     "ansi-styles": "^4.2.1",
     "babel-runtime": "^6.26.0",
     "chalk": "^2.4.2",
